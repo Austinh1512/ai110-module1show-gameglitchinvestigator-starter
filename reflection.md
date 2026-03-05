@@ -4,9 +4,11 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 ## 1. What was broken when you started?
 
-- What did the game look like the first time you ran it?
-- List at least two concrete bugs you noticed at the start  
-  (for example: "the secret number kept changing" or "the hints were backwards").
+- The hints are reversed. Guessing below the secret number results in "Go lower" and guessing higher results in "Go higher."
+- After successfully guessing the secret number, starting a new game does not allow you to input any more guesses. 
+- The secret number doesn't fall in the range of each difficulty. The secret number also doesn't change when selecting a new difficulty.
+- I believe the normal and hard range are switched and the normal and easy attempts are switched.
+- When you first load the app, the attempts left counter is always 1 lower than it should be for all difficulties. This fixes itself when a new game is started.
 
 ---
 
